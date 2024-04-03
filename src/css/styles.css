@@ -137,4 +137,15 @@ h1 {
     color: var(--color-aside);
 }
 
+/* Seción de viajes */
+
+.viajes {
+    width: 100%;
+    margin: 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 

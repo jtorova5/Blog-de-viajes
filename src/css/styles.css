@@ -46,6 +46,7 @@ header {
     background-repeat: no-repeat;
     width: 100%;
     height: 300px;
+    background-size: 100%;
 }
 
 /* Barra de navegación */
@@ -144,7 +145,42 @@ h1 {
     margin: 40px 80px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
+.magdalena {
+    border: 1px solid;
+    width: 800px;
+}
+
+.magdalena img {
+    width: 800px;
+    height: 400px;
+}
+
+.antioquia {
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+}
+
+.antioquia img {
+    width: 400px;
+    height: 200px;
+}
+
+.amazonas {
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+}
+
+.amazonas img {
+    width: 400px;
+    height: 200px;
+}
+
+
 
 
 

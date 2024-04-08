@@ -1,15 +1,9 @@
-<!--
-Nombre Completo: Jhonatan Toro Vásquez
-Clan: Gates
-Fecha: 03/04/2024
--->
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
         content="Sumérgete en este emocionante blog donde te contaré acerca de todos mis viajes. ¡Acómpañame a recorrer el mundo y conocer sus más hermosos lugares" />
     <meta name="keywords"
@@ -22,185 +16,214 @@ Fecha: 03/04/2024
     <meta name="robots" content="index,follow" />
     <meta name="googlebot" content="index,follow" />
     <meta name="revisit-after" content="15days" />
-    <link rel="stylesheet" href="./src/css/styles.css">
-    <link rel="shortcut icon" href="./public/img/icon.ico" type="image/x-icon">
-    <title>Colombia travel</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Document</title>
+    <!-- TODAS LAS ETIQUETAS META AQUI QUE SON UNA MAMADA -->
 </head>
 
 <body>
-    <!-- Encabezado -->
+    <!-- LA ESTRUCTURA MÁS GENERICA QUE EXISTE -->
 
-    <header>
-        <!-- Barra de navegación -->
-
-        <nav>
-            <!-- Logo -->
-            
-            <article class="main">
-                <img src="./public/img/logo.png" alt="Colombia travel">
+    <!-- HEADER -->
+    <header class="column">
+        <nav class="row nav space-between center-y">
+            <div class="row center-x-y">
+                <img src="./public/img/logo.png" alt="" class="logo">
                 <h1>Colombia Travel</h1>
-            </article>
-
-            <!-- Redes sociales -->
-
-            <article class="redes">
-                <a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
-                <a class="instagram" href="https://www.instagram.com/" target="_blank"><i
-                        class="bi bi-instagram"></i></a>
-                <a class="twitter" href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a>
-                <a class="youtube" href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
-                <a class="snapchat" href="https://www.snapchat.com/" target="_blank"><i class="bi bi-snapchat"></i></a>
-            </article>
-            <article class="aside">
-                <i class="bi bi-search"></i>
-                <i class="bi bi-list"></i>
-            </article>
+            </div>
+            <ul class="row">
+                <li>F</li>
+                <li>I</li>
+                <li>X</li>
+                <li>Y</li>
+                <li>S</li>
+            </ul>
+            <div class="row">
+                <i>L</i>
+                <i>H</i>
+            </div>
         </nav>
+        <!-- La pinche imagen de atrás -->
+        <img class="banner" src="./public/img/Mis viajes.webp" alt="imagen de atrás" />
     </header>
-
-    <main>
-        <!-- Sección de viajes -->
-
-        <section class="viajes">
-            <article class="magdalena">
-                <img src="./public/img/viaje-magdalena.webp" alt="Santa Marta">
-                <div>
-                    <p>MI VIAJE POR MAGDALENA</p>
+    <!-- MAIN -->
+    <main class="column main center-x-y">
+        <!-- Primero pongo los elementos más grandes
+        yo ya identifiqué que el main está partido en 
+        2 secciones -->
+        <section id="section-one" class="row center-x-y">
+            <article class="row center-x-y">
+                <div class="column article-left">
+                    <figure class="article-left-item-one">
+                        <img src="./public/img/viaje-magdalena.webp" alt="" />
+                        <figcaption>MI VIAJE POR MAGDALENA</figcaption>
+                    </figure>
+                    <figure class="article-left-item-two">
+                        <img src="./public/img/viaje-santander.webp" alt="" />
+                        <figcaption>MI VIAJE POR SANTANDER</figcaption>
+                    </figure>
                 </div>
-            </article>
-            <article class="antioquia">
-                <img src="./public/img/viaje-antioquia.webp" alt="Antioquia">
-                <div>
-                    <p>MI VIAJE POR ANTIOQUIA</p>
-                </div>
-            </article>
-            <article class="amazonas">
-                <img src="./public/img/viaje-amazonas.webp" alt="Amazonas">
-                <div>
-                    <p>MI VIAJE POR AMAZONAS</p>
-                </div>
-            </article>
-            <article class="santander">
-                <img src="./public/img/viaje-santander.webp" alt="Santander">
-                <div>
-                    <p>MI VIAJE POR SANTANDER</p>
-                </div>
-            </article>
-            <article class="arauca">
-                <img src="./public/img/viaje-arauca.webp" alt="Arauca">
-                <div>
-                    <p>MI VIAJE POR ARAUCA</p>
+                <div class="column article-right">
+                    <div class="row article-right-item-one">
+                        <figure class="article-right-item-figure">
+                            <img src="./public/img/viaje-antioquia.webp" alt="" />
+                            <figcaption>MI VIAJE POR ANTIOQUIA</figcaption>
+                        </figure>
+                        <figure class="article-right-item-figure">
+                            <img src="./public/img/viaje-amazonas.webp" alt="" />
+                            <figcaption>MI VIAJE POR AMAZONAS</figcaption>
+                        </figure>
+                    </div>
+                    <div class="article-right-item-two">
+                        <figure id="right-item-bottom-figure">
+                            <img src="./public/img/viaje-arauca.webp" alt="" />
+                            <figcaption>MI VIAJE POR ARAUCA</figcaption>
+                        </figure>
+                    </div>
                 </div>
             </article>
         </section>
-
-        <!-- Sección de blogs -->
-
-        <section class="blogs">
-            <article>
-                <img src="./public/img/blog-santa-marta.webp" alt="Santa Marta">
-                <div>
-                    <h2>Santa Marta belleza del Caribe</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, doloribus numquam molestias
-                        neque voluptas quod exercitationem labore, quos soluta quas, nihil expedita porro fugit libero
-                        placeat vero. Rerum, aut esse?</p>
+        <section id="section-two" class="row center-x">
+            <!-- Aqui por ejemplo puedo partir esto en un article y un 
+        aside  -->
+            <article class="column">
+                <div class="row gap-20 border-bottom center-x-y">
                     <div>
-                        <span>30.19.2020</span>
-                        <span>Leer más</span>
+                        <figure>
+                            <img src="./public/img/blog-santa-marta.webp" alt="">
+                        </figure>
                     </div>
-                </div>
-            </article>
-            <article>
-                <img src="./public/img/blog-bogota.webp" alt="Bogotá">
-                <div>
-                    <h2>Bogotá extensa capital</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae cumque ad.
-                        Quibusdam exercitationem laboriosam ad, molestiae consequatur est facere. Eius, nobis hic. Esse
-                        recusandae id maiores dignissimos exercitationem maxime.</p>
-                    <div>
-                        <span>30.19.2020</span>
-                        <span>Leer más</span>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <img src="./public/img/blog-llanos-orientales.webp" alt="Llanos orientales">
-                <div>
-                    <h2>Llanos orientales</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, earum sapiente nemo enim
-                        maiores eveniet aperiam eius, molestiae, totam repellendus reprehenderit reiciendis dolores
-                        quidem illum voluptatem quisquam commodi incidunt excepturi!</p>
-                    <div>
-                        <span>30.19.2020</span>
-                        <span>Leer más</span>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <img src="./public/img/blog-bucaramanga.webp" alt="Bucaramanga">
-                <div>
-                    <h2>Bucaramanga ciudad bonita</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, non quidem? Cum tempore
-                        perspiciatis provident deserunt laboriosam, ducimus placeat earum optio sed quae labore.
-                        Distinctio itaque soluta nisi labore quos?</p>
-                    <div>
-                        <span>30.19.2020</span>
-                        <span>Leer más</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Barra de anuncios -->
-
-            <aside>
-                <nav>
-                    <img src="./public/img/anuncio-gato.webp" alt="Anuncio gatos">
-                    <article>
-                        <h2>Comentarios Recientes</h2>
-                        <div>
-                            <img src="./public/img/anuncio-oasis.webp" alt="Oasis">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="column">
+                        <h3>Santa Marta belleza del Caribe</h3>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsam, voluptate, eveniet
+                            vel nobis maiores nemo laudantium illo, non placeat dolor molestias qui? Veniam ex quos
+                            optio, molestiae vero temporibus.</p>
+                        <br>
+                        <div class="row space-between">
+                            <p>30.19.2020</p>
+                            <p>Leer Más</p>
                         </div>
-                        <div>
-                            <img src="./public/img/anuncio-paisaje.webp" alt="Paisaje">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="row gap-20 border-bottom center-x-y">
+                    <div>
+                        <figure>
+                            <img src="./public/img/blog-bogota.webp" alt="">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <h3>Bogotá extensa capital</h3>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsam, voluptate, eveniet vel nobis maiores nemo laudantium illo, non placeat dolor molestias qui? Veniam ex quos optio, molestiae vero temporibus.</p>
+                        <br>
+                        <div class="row space-between">
+                            <p>30.19.2020</p>
+                            <p>Leer Más</p>
                         </div>
-                        <div>
-                            <img src="./public/img/anuncio-noche.webp" alt="Noche">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="row gap-20 border-bottom center-x-y">
+                    <div>
+                        <figure>
+                            <img src="./public/img/blog-llanos-orientales.webp" alt="">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <h3>Llanos orientales</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsam, voluptate, eveniet vel nobis maiores nemo laudantium illo, non placeat dolor molestias qui? Veniam ex quos optio, molestiae vero temporibus.</p>
+                        <div class="row space-between">
+                            <p>30.19.2020</p>
+                            <p>Leer Más</p>
                         </div>
-                    </article>
-                    <img src="./public/img/anuncio-pc.webp" alt="PC gamer">
-                </nav>
+                    </div>
+                </div>
+                <div class="row gap-20 border-bottom center-x-y">
+                    <div>
+                        <figure>
+                            <img src="./public/img/blog-bucaramanga.webp" alt="">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <h3>Bucaramanga ciudad bonita</h3>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsam, voluptate, eveniet vel nobis maiores nemo laudantium illo, non placeat dolor molestias qui? Veniam ex quos optio, molestiae vero temporibus.</p>
+                        <br>
+                        <div class="row space-between">
+                            <p>30.19.2020</p>
+                            <p>Leer Más</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <aside class="column gap-20 center-y">
+                <div class="column">
+                    <h3>Sobre mí</h3>
+                    <figure>
+                        <img src="./public/img/blog-bogota.webp" alt="">
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, laboriosam? </p>
+                </div>
+                <div class="column center-x-y">
+                    <figure>
+                        <img src="./public/img/anuncio-gato.webp" alt="">
+                    </figure>
+                </div>
+                <div id="anuncios" class="column center-x-y gap-20">
+                    <h3>Comentarios Recientes</h3>
+                    <div class="row gap-15">
+                        <figure>
+                            <img src="./public/img/anuncio-oasis.webp" alt="">
+                        </figure>
+                        <p>
+                            lomreorjeaojao saofjasofj
+                            asofjosafjosajf
+                            asofjasofj
+                        </p>
+                    </div>
+                    <div class="row gap-15">
+                        <figure>
+                            <img src="./public/img/anuncio-paisaje.webp" alt="">
+                        </figure>
+                        <p> 
+                            lomreorjeaojao saofjasofj
+                            asofjosafjosajf
+                            asofjasofj
+                        </p>
+                    </div>
+                    <div class="row gap-15">
+                        <figure>
+                            <img src="./public/img/anuncio-noche.webp" alt="">
+                        </figure>
+                        <p> 
+                            lomreorjeaojao saofjasofj
+                            asofjosafjosajf
+                            asofjasofj
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <figure>
+                        <img src="./public/img/anuncio-pc.webp" alt="">
+                    </figure>
+                </div>
             </aside>
         </section>
     </main>
-
-    <!-- Footer -->
-
-    <footer>
-        <h2 class="h2">Contacto</h2>
-        <section id="contacto">
-            <article>
-                <span>Inscribete en nuestro newsletter:</span>
-                <!-- Formulario -->
-
-                <form action="#">
-                    <input type="email" placeholder="Ingresa tu Email" />
-                    <button>Inscribirse</button>
-                </form>
-                <div>
-                    <a class="facebook" href="https://www.facebook.com/" target="_blank"><i
-                            class="bi bi-facebook"></i></a>
-                    <a class="instagram" href="https://www.instagram.com/" target="_blank"><i
-                            class="bi bi-instagram"></i></a>
-                    <a class="twitter" href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a>
-                    <a class="youtube" href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
-                    <a class="snapchat" href="https://www.snapchat.com/" target="_blank"><i
-                            class="bi bi-snapchat"></i></a>
-                </div>
-            </article>
-        </section>
+    <!-- FOOTER -->
+    <footer class="column">
+        <p></p>
+        <div class="row">
+            <input type="text">
+            <button></button>
+        </div>
+        <ul class="row">
+            <li>F</li>
+            <li>I</li>
+            <li>X</li>
+            <li>Y</li>
+            <li>S</li>
+        </ul>
     </footer>
 </body>
 

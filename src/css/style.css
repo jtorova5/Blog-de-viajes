@@ -1,0 +1,222 @@
+:root{
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+img {
+    width: 270px;
+    height: 170px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* ESTILOS ESPECIFICOS */
+
+
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.banner{
+    width: 100%;
+    height: 250px;
+}
+
+.main{
+    margin-top: 60px;
+}
+
+#section-one{
+    width: 100%;
+    margin-bottom: 100px;
+    height: 900px;
+}
+
+#section-one article{
+    width: 70%;
+    gap: 15px;
+    height: 100%;
+}
+
+.article-left{
+    width: 35%;
+    gap: 15px;
+    height: 100%;
+}
+
+.article-left figure{
+    width: 100%;
+}
+
+.article-left-item-one{
+    height: 55%;
+    position: relative;
+}
+
+figcaption{
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: white;
+}
+
+.article-left-item-two{
+    height: 45%;
+    position: relative;
+
+}
+
+figure {
+    position: relative;
+
+}
+
+.article-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.article-right{
+    width: 65%;
+    gap: 15px;
+    height: 100%;
+}
+
+.article-right-item-one{
+    width: 100%;
+    gap: 15px;
+    height: 45%;
+}
+.article-right-item-one{
+    width: 100%;
+    gap: 15px;
+}
+.article-right-item-figure{
+    width: 50%;
+    height: 100%;
+}
+
+.article-right-item-figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.article-right-item-two{
+    width: 100%;
+    height: 65%;
+}
+
+
+#right-item-bottom-figure{
+    width: 100%;
+    height: 100%;
+}
+
+#right-item-bottom-figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.gap-30{
+    gap: 30px;
+}
+
+.border-bottom{
+    border-bottom: 2px solid greenyellow;
+    padding-bottom: 10px;
+}
+
+
+#section-two{
+    width: 100%;
+    gap: 40px;
+}
+
+#section-two article{
+    width: 50%;
+    gap: 20px;
+}
+
+#section-two aside{
+    width: 20%;
+}
+
+aside #anuncios img{
+    width: 150px;
+    height: 80px;
+}
+
+/* ESTILOS GENERICOS */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.center-x {
+    justify-content: center;
+}
+
+.center-y {
+    align-items: center;
+}
+
+.center-x-y {
+    justify-content: center;
+    align-items: center;
+}
+
